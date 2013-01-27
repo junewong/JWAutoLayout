@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"tips_flowlayout_demo" = "点击按钮能更改每个小方块的大小，则每个方块的位置会自动调整，保持跟上一个方块的相对位置。";
+"tips_gridlayout_demo" = "点击按钮能更改每个小方块的大小，则每个方块的位置会自动调整，而保持指定行列数。";
+"tips_alignmentlayout_demo" = "点击按钮能更改整个AlignmentLayout对象的大小，而它包含的每个小方块的位置会自动调整，但保持指定对齐的相对位置不变。";

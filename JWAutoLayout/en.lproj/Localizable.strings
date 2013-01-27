@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"tips_flowlayout_demo" = "Click buttons to change the size of each block. Every block will adjust its position automaticlly, belong to the last one.";
+"tips_gridlayout_demo" = "Click buttons to change the size of each block. Every blcok will adjust its position automaticlly, but keep the rows and columns.";
+"tips_alignmentlayout_demo" = "Click buttons to change the size of AlignmentLayout object. All blocks in it will adjust their position, with the alignment type we expect.";

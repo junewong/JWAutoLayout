@@ -10,19 +10,27 @@
 		BDDE8B1816B3D64D006C686F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B1716B3D64D006C686F /* UIKit.framework */; };
 		BDDE8B1A16B3D64D006C686F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B1916B3D64D006C686F /* Foundation.framework */; };
 		BDDE8B1C16B3D64D006C686F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B1B16B3D64D006C686F /* CoreGraphics.framework */; };
-		BDDE8B2216B3D64D006C686F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B2016B3D64D006C686F /* InfoPlist.strings */; };
+		BDDE8B2216B3D64D006C686F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B2016B3D64D006C686F /* Localizable.strings */; };
 		BDDE8B2416B3D64D006C686F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B2316B3D64D006C686F /* main.m */; };
 		BDDE8B2816B3D64D006C686F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B2716B3D64D006C686F /* AppDelegate.m */; };
 		BDDE8B2A16B3D64D006C686F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B2916B3D64D006C686F /* Default.png */; };
 		BDDE8B2C16B3D64D006C686F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B2B16B3D64D006C686F /* Default@2x.png */; };
 		BDDE8B2E16B3D64D006C686F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B2D16B3D64D006C686F /* Default-568h@2x.png */; };
 		BDDE8B3116B3D64D006C686F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B3016B3D64D006C686F /* ViewController.m */; };
-		BDDE8B3416B3D64D006C686F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B3216B3D64D006C686F /* ViewController.xib */; };
 		BDDE8B3C16B3D64D006C686F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B3B16B3D64D006C686F /* SenTestingKit.framework */; };
 		BDDE8B3D16B3D64D006C686F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B1716B3D64D006C686F /* UIKit.framework */; };
 		BDDE8B3E16B3D64D006C686F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE8B1916B3D64D006C686F /* Foundation.framework */; };
 		BDDE8B4616B3D64D006C686F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B4416B3D64D006C686F /* InfoPlist.strings */; };
 		BDDE8B4916B3D64E006C686F /* JWAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B4816B3D64E006C686F /* JWAutoLayoutTests.m */; };
+		BDDE8B5B16B3D670006C686F /* AlignmentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B5416B3D670006C686F /* AlignmentLayout.m */; };
+		BDDE8B5C16B3D670006C686F /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B5616B3D670006C686F /* FlowLayout.m */; };
+		BDDE8B5D16B3D670006C686F /* GridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B5816B3D670006C686F /* GridLayout.m */; };
+		BDDE8B5E16B3D670006C686F /* JWAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B5A16B3D670006C686F /* JWAutoLayout.m */; };
+		BDDE8B7016B3E6AF006C686F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B6C16B3E6AF006C686F /* DemoViewController.m */; };
+		BDDE8B7216B3E6AF006C686F /* FlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B6F16B3E6AF006C686F /* FlowLayoutViewController.m */; };
+		BDDE8B7516B3FD38006C686F /* GridLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B7416B3FD38006C686F /* GridLayoutViewController.m */; };
+		BDDE8B7816B40911006C686F /* AlignmentLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE8B7716B40911006C686F /* AlignmentLayoutViewController.m */; };
+		BDDE8B7A16B41BC5006C686F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDE8B7916B41BC5006C686F /* DemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +49,7 @@
 		BDDE8B1916B3D64D006C686F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BDDE8B1B16B3D64D006C686F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BDDE8B1F16B3D64D006C686F /* JWAutoLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWAutoLayout-Info.plist"; sourceTree = "<group>"; };
-		BDDE8B2116B3D64D006C686F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDE8B2116B3D64D006C686F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BDDE8B2316B3D64D006C686F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDDE8B2516B3D64D006C686F /* JWAutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWAutoLayout-Prefix.pch"; sourceTree = "<group>"; };
 		BDDE8B2616B3D64D006C686F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,13 +59,31 @@
 		BDDE8B2D16B3D64D006C686F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BDDE8B2F16B3D64D006C686F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BDDE8B3016B3D64D006C686F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BDDE8B3316B3D64D006C686F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		BDDE8B3A16B3D64D006C686F /* JWAutoLayoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWAutoLayoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE8B3B16B3D64D006C686F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BDDE8B4316B3D64D006C686F /* JWAutoLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWAutoLayoutTests-Info.plist"; sourceTree = "<group>"; };
 		BDDE8B4516B3D64D006C686F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDDE8B4716B3D64D006C686F /* JWAutoLayoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAutoLayoutTests.h; sourceTree = "<group>"; };
 		BDDE8B4816B3D64E006C686F /* JWAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAutoLayoutTests.m; sourceTree = "<group>"; };
+		BDDE8B5316B3D670006C686F /* AlignmentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignmentLayout.h; sourceTree = "<group>"; };
+		BDDE8B5416B3D670006C686F /* AlignmentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignmentLayout.m; sourceTree = "<group>"; };
+		BDDE8B5516B3D670006C686F /* FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		BDDE8B5616B3D670006C686F /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		BDDE8B5716B3D670006C686F /* GridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayout.h; sourceTree = "<group>"; };
+		BDDE8B5816B3D670006C686F /* GridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayout.m; sourceTree = "<group>"; };
+		BDDE8B5916B3D670006C686F /* JWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAutoLayout.h; sourceTree = "<group>"; };
+		BDDE8B5A16B3D670006C686F /* JWAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAutoLayout.m; sourceTree = "<group>"; };
+		BDDE8B6B16B3E6AF006C686F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		BDDE8B6C16B3E6AF006C686F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		BDDE8B6E16B3E6AF006C686F /* FlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayoutViewController.h; sourceTree = "<group>"; };
+		BDDE8B6F16B3E6AF006C686F /* FlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayoutViewController.m; sourceTree = "<group>"; };
+		BDDE8B7316B3FD38006C686F /* GridLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayoutViewController.h; sourceTree = "<group>"; };
+		BDDE8B7416B3FD38006C686F /* GridLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayoutViewController.m; sourceTree = "<group>"; };
+		BDDE8B7616B40911006C686F /* AlignmentLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignmentLayoutViewController.h; sourceTree = "<group>"; };
+		BDDE8B7716B40911006C686F /* AlignmentLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignmentLayoutViewController.m; sourceTree = "<group>"; };
+		BDDE8B7916B41BC5006C686F /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		BDDE8B7E16B57686006C686F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDDE8B7F16B57686006C686F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +143,12 @@
 		BDDE8B1D16B3D64D006C686F /* JWAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				BDDE8B5216B3D670006C686F /* layout */,
+				BDDE8B6A16B3E6AF006C686F /* demo */,
 				BDDE8B2616B3D64D006C686F /* AppDelegate.h */,
 				BDDE8B2716B3D64D006C686F /* AppDelegate.m */,
 				BDDE8B2F16B3D64D006C686F /* ViewController.h */,
 				BDDE8B3016B3D64D006C686F /* ViewController.m */,
-				BDDE8B3216B3D64D006C686F /* ViewController.xib */,
 				BDDE8B1E16B3D64D006C686F /* Supporting Files */,
 			);
 			path = JWAutoLayout;
@@ -131,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDE8B1F16B3D64D006C686F /* JWAutoLayout-Info.plist */,
-				BDDE8B2016B3D64D006C686F /* InfoPlist.strings */,
+				BDDE8B2016B3D64D006C686F /* Localizable.strings */,
 				BDDE8B2316B3D64D006C686F /* main.m */,
 				BDDE8B2516B3D64D006C686F /* JWAutoLayout-Prefix.pch */,
 				BDDE8B2916B3D64D006C686F /* Default.png */,
@@ -158,6 +185,37 @@
 				BDDE8B4416B3D64D006C686F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDDE8B5216B3D670006C686F /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE8B5916B3D670006C686F /* JWAutoLayout.h */,
+				BDDE8B5A16B3D670006C686F /* JWAutoLayout.m */,
+				BDDE8B5516B3D670006C686F /* FlowLayout.h */,
+				BDDE8B5616B3D670006C686F /* FlowLayout.m */,
+				BDDE8B5716B3D670006C686F /* GridLayout.h */,
+				BDDE8B5816B3D670006C686F /* GridLayout.m */,
+				BDDE8B5316B3D670006C686F /* AlignmentLayout.h */,
+				BDDE8B5416B3D670006C686F /* AlignmentLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		BDDE8B6A16B3E6AF006C686F /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE8B6B16B3E6AF006C686F /* DemoViewController.h */,
+				BDDE8B6C16B3E6AF006C686F /* DemoViewController.m */,
+				BDDE8B7916B41BC5006C686F /* DemoViewController.xib */,
+				BDDE8B6E16B3E6AF006C686F /* FlowLayoutViewController.h */,
+				BDDE8B6F16B3E6AF006C686F /* FlowLayoutViewController.m */,
+				BDDE8B7316B3FD38006C686F /* GridLayoutViewController.h */,
+				BDDE8B7416B3FD38006C686F /* GridLayoutViewController.m */,
+				BDDE8B7616B40911006C686F /* AlignmentLayoutViewController.h */,
+				BDDE8B7716B40911006C686F /* AlignmentLayoutViewController.m */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +272,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
+				Base,
+				"zh-Hans",
 			);
 			mainGroup = BDDE8B0816B3D64D006C686F;
 			productRefGroup = BDDE8B1416B3D64D006C686F /* Products */;
@@ -231,11 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDDE8B2216B3D64D006C686F /* InfoPlist.strings in Resources */,
+				BDDE8B2216B3D64D006C686F /* Localizable.strings in Resources */,
 				BDDE8B2A16B3D64D006C686F /* Default.png in Resources */,
 				BDDE8B2C16B3D64D006C686F /* Default@2x.png in Resources */,
 				BDDE8B2E16B3D64D006C686F /* Default-568h@2x.png in Resources */,
-				BDDE8B3416B3D64D006C686F /* ViewController.xib in Resources */,
+				BDDE8B7A16B41BC5006C686F /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +334,14 @@
 				BDDE8B2416B3D64D006C686F /* main.m in Sources */,
 				BDDE8B2816B3D64D006C686F /* AppDelegate.m in Sources */,
 				BDDE8B3116B3D64D006C686F /* ViewController.m in Sources */,
+				BDDE8B5B16B3D670006C686F /* AlignmentLayout.m in Sources */,
+				BDDE8B5C16B3D670006C686F /* FlowLayout.m in Sources */,
+				BDDE8B5D16B3D670006C686F /* GridLayout.m in Sources */,
+				BDDE8B5E16B3D670006C686F /* JWAutoLayout.m in Sources */,
+				BDDE8B7016B3E6AF006C686F /* DemoViewController.m in Sources */,
+				BDDE8B7216B3E6AF006C686F /* FlowLayoutViewController.m in Sources */,
+				BDDE8B7516B3FD38006C686F /* GridLayoutViewController.m in Sources */,
+				BDDE8B7816B40911006C686F /* AlignmentLayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,26 +364,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDDE8B2016B3D64D006C686F /* InfoPlist.strings */ = {
+		BDDE8B2016B3D64D006C686F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BDDE8B2116B3D64D006C686F /* en */,
+				BDDE8B7E16B57686006C686F /* zh-Hans */,
 			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BDDE8B3216B3D64D006C686F /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDDE8B3316B3D64D006C686F /* en */,
-			);
-			name = ViewController.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		BDDE8B4416B3D64D006C686F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BDDE8B4516B3D64D006C686F /* en */,
+				BDDE8B7F16B57686006C686F /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -344,7 +407,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +428,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -378,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JWAutoLayout/JWAutoLayout-Prefix.pch";
 				INFOPLIST_FILE = "JWAutoLayout/JWAutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,6 +453,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JWAutoLayout/JWAutoLayout-Prefix.pch";
 				INFOPLIST_FILE = "JWAutoLayout/JWAutoLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +512,7 @@
 				BDDE8B4E16B3D64E006C686F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDDE8B4F16B3D64E006C686F /* Build configuration list for PBXNativeTarget "JWAutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +521,7 @@
 				BDDE8B5116B3D64E006C686F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
